@@ -40,4 +40,4 @@ Function ASCIIART {
 " -f red
 }
 
-$among | ForEach { Invoke-Expression $_ }
+$among
