@@ -1,8 +1,3 @@
-$among = @(
-	### function ###
-	"ASCIIART"
-)
-
 
 Function ASCIIART {
 	Write-Output "
@@ -40,4 +35,4 @@ Function ASCIIART {
 " -f red
 }
 
-$among
+$ASCIIART
