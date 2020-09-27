@@ -1,6 +1,6 @@
 $among = @(
 	### function ###
-	"ASCIIART",
+	"ASCIIART"
 )
 
 
