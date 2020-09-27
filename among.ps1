@@ -1,5 +1,5 @@
 
-Function ASCIIART {
+Function among {
 	Write-Output "
                    %@%     @@,  .&@@@@@@@. ,@@      @@,             /@@    %@@@@@%.   &@@@@@@@&                 
                   .@@,  @@.  &@%      @@,,@@      @@,            @@@@#   %@,   (@&  %@,                       
@@ -35,4 +35,4 @@ Function ASCIIART {
 " -f red
 }
 
-$ASCIIART
+$among
