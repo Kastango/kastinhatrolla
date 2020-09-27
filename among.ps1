@@ -1,5 +1,11 @@
+$among = @(
+	### function ###
+	"ASCIIART",
+	"SPHOR"
+)
 
-Function among {
+
+Function ASCIIART {
 	Write-Output "
                    %@%     @@,  .&@@@@@@@. ,@@      @@,             /@@    %@@@@@%.   &@@@@@@@&                 
                   .@@,  @@.  &@%      @@,,@@      @@,            @@@@#   %@,   (@&  %@,                       
@@ -35,4 +41,8 @@ Function among {
 " -f red
 }
 
-$among
+Function SPHOR {
+	Write-Output "Você é o impostor " -f blue
+}
+
+$among | ForEach { Invoke-Expression $_ }
