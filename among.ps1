@@ -7,7 +7,6 @@ $among = @(
 
 
 Function You {
-	[System.Console]::Clear()
 	Write-Host "
 
 ▓██   ██▓ ▒█████   █    ██ 
@@ -23,7 +22,6 @@ Function You {
 }
 
 Function Are {
-	[System.Console]::Clear()
 	Write-Host "
 	
  ▄▄▄       ██▀███  ▓█████ 
