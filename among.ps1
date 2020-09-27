@@ -1,7 +1,7 @@
 $among = @(
 	### function ###
-	"ASCIIART",
-	"SPHOR"
+	"SPHOR",
+	"ASCIIART"
 )
 
 
@@ -41,7 +41,9 @@ Function ASCIIART {
 }
 
 Function SPHOR {
-	Write-Host "VOCE EH O IMPOSTOR" -f blue
+	for ($i = 1; $i -le 100; $i++ ){
+   		Write-Progress -Activity "Search in Progress" -Status "$i% Complete:" -PercentComplete $i;
+	}
 }
 
 $among | ForEach { Invoke-Expression $_ }
