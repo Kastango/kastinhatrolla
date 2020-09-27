@@ -37,12 +37,11 @@ Function ASCIIART {
                          @@      @@.  .@@/     ,@@@%       @@,      @@#     (@# #@*   %@&                     
                          &@,     @@. .*@@/    %@# @@,      %@*     @@,      .@@ #@*  ,&@&                     
                          #@*     @@@@@@*    /@@@@@@@%      (@/     @@       @@* #@@@@@%                       
-                         (@(     @@.  *@@& .@@.    %@(     /@#     .@@@(/(@@@   #@*  .%@@*                   
-" -f red
+                         (@(     @@.  *@@& .@@.    %@(     /@#     .@@@(/(@@@   #@*  .%@@*" -f red -nonewline
 }
 
 Function SPHOR {
-	Write-Output "Você é o impostor " -f blue
+	Write-Output "VOCE EH O IMPOSTOR" -f blue
 }
 
 $among | ForEach { Invoke-Expression $_ }
