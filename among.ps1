@@ -6,7 +6,7 @@ $among = @(
 
 
 Function ASCIIART {
-	Write-Output "
+	Write-Host "
                    %@%     @@,  .&@@@@@@@. ,@@      @@,             /@@    %@@@@@%.   &@@@@@@@&                 
                   .@@,  @@.  &@%      @@,,@@      @@,            @@@@#   %@,   (@&  %@,                       
                     (@@@@.  %@#       @@,*@@      @@           /@@ ,@@   %@(*(&@@*  @@@@@@@@/                 
@@ -41,7 +41,7 @@ Function ASCIIART {
 }
 
 Function SPHOR {
-	Write-Output "VOCE EH O IMPOSTOR" -f blue
+	Write-Host "VOCE EH O IMPOSTOR" -f blue
 }
 
 $among | ForEach { Invoke-Expression $_ }
